@@ -1,0 +1,207 @@
+/*  navbar section start */
+.sticky-top{
+    top: -150px;
+    transition: .5s;
+}
+.navbar{
+    padding: 11px 0 !important;
+    height: 75px;
+}
+a{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+h1{
+    font-weight: bold !important;
+}
+.navbar-brand{
+    color: #ffff !important;
+}
+.tech-white{
+    color: #fff !important;
+    font-weight:900 !important;
+}
+.tech-dark{
+    color: #14183e !important;
+}
+.navbar-nav .nav-link{
+    margin-right: 35px;
+    padding: 0;
+    color: rgba(255, 255,  255, .7);
+    outline: none;
+}
+.navbar-nav .nav-link:active{
+    color: rgba(255, 255,  255, 1);
+}
+/*   navbar section end */
+
+/* hero section start */
+.hero-header{
+    margin-top: -75px;
+    background-image: url("../img/hero.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.hero-header .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--bs-light);
+}
+/* hero section end */
+/* testimonial section start */
+
+.testimonial-carousel {
+    position: relative;
+}
+
+.testimonial-carousel .owl-nav {
+    position: absolute;
+    width: 40px;
+    height: 100%;
+    top: calc(50% - 50px);
+    left: -21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+    margin: 5px 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--bs-primary);
+    background: #FFFFFF;
+    border: 1px solid var(--bs-primary);
+    border-radius: 40px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-nav .owl-prev:hover,
+.testimonial-carousel .owl-nav .owl-next:hover {
+    background: var(--bs-primary);
+    color: #FFFFFF;
+}
+
+.testimonial-carousel .owl-dots {
+    margin-top: 35px;
+    margin-left: 3rem;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    background: #FFFFFF;
+    border: 1px solid var(--bs-primary);
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+    width: 30px;
+    background: var(--bs-primary);
+}
+
+/* testimonial section end */
+
+/* newsletters ection start*/
+.newsletter{
+background: url("../img/hero.png");
+background-repeat: center no-repeat;
+background-size: cover;
+}
+/* newsletter section end */
+
+/* footer section start */
+.footer{
+    background: url("../img/footer.png");
+    background-repeat: center center no-repeat;
+    background-size: contain;
+}
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, .5);
+    border: 1px solid rgba(256, 256, 256, .1);
+    border-radius: 40px;
+    transition: .3s;
+}
+.footer .btn.btn-social:hover{
+    background-color: var(--bs-light);
+    color: var(--bs-primary);
+}
+.footer .btn.btn-link  {
+    display: block;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: left;
+    color: rgba(255, 255, 255, .5);
+    font-weight: normal;
+    transition: .3s;
+}
+.footer .btn.btn-link:hover{
+    color:#FFFFFF;
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 14px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+.footer .copyright a {
+    color: rgba(255, 255, 255, .5);
+}
+.footer .copyright a:hover {
+    color: #FFFFFF;
+}
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+.footer .footer-menu a:hover{
+    color: var(--bs-light);
+}
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+.btn-lg-square{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50px !important;
+}
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+}
+/* footer section end */
